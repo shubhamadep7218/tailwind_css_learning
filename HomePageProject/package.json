@@ -1,0 +1,13 @@
+{
+  "name": "HomePageProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
